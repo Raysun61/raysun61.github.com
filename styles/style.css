@@ -1,0 +1,37 @@
+html {
+  font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+  background-color: #f0f0f0; /* 你可以根据需要更改背景颜色 */
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px white;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  width: 800px; /* 强制文档体永远保持 800 像素宽。 */
+  margin: 50px auto; /* 当你在 margin 或 padding 这样的属性上设置两个值时，第一个值影响元素的上下方向（在这个例子中设置为 0）；
+  第二个值影响左右方向。（这里，auto 是一个特殊的值，它将可用的水平空间平均分配给左边和右边） */
+  background-color: rgba(209, 232, 239, 0.71);
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
